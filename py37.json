@@ -1,0 +1,108 @@
+{
+    "Id": "sha256:2d2ae84518035ad0d2a12c4440748709302ac0ee3d1aedb5cdd53c5621279281",
+    "RepoTags": [
+        "python:3"
+    ],
+    "RepoDigests": [
+        "python@sha256:5e2dc76c9668e5bbb5ed77050f17f4e41cc29f42def887ab2033fa9cd101d6fa"
+    ],
+    "Parent": "",
+    "Comment": "",
+    "Created": "2020-01-25T02:49:31.328209202Z",
+    "Container": "9d8498a37d2d7151b684ca08ce846a29dd727cff634c51b63d10d9a2e49917f6",
+    "ContainerConfig": {
+        "Hostname": "9d8498a37d2d",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+            "PYTHON_VERSION=3.8.1",
+            "PYTHON_PIP_VERSION=20.0.2",
+            "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/42ad3426cb1ef05863521d7988d5f7fec0c99560/get-pip.py",
+            "PYTHON_GET_PIP_SHA256=da288fc002d0bb2b90f6fbabc91048c1fa18d567ad067ee713c6e331d3a32b45"
+        ],
+        "Cmd": [
+            "/bin/sh",
+            "-c",
+            "#(nop) ",
+            "CMD [\"python3\"]"
+        ],
+        "ArgsEscaped": true,
+        "Image": "sha256:0b7ce38f597268df0e66b26e7df7ed413e6abd0b8fe4b798fc250dc96c0e6488",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": {}
+    },
+    "DockerVersion": "18.06.1-ce",
+    "Author": "",
+    "Config": {
+        "Hostname": "",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+            "PYTHON_VERSION=3.7.6",
+            "PYTHON_PIP_VERSION=20.0.2",
+            "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/42ad3426cb1ef05863521d7988d5f7fec0c99560/get-pip.py",
+            "PYTHON_GET_PIP_SHA256=da288fc002d0bb2b90f6fbabc91048c1fa18d567ad067ee713c6e331d3a32b45"
+        ],
+        "Cmd": [
+            "python3"
+        ],
+        "ArgsEscaped": true,
+        "Image": "sha256:0b7ce38f597268df0e66b26e7df7ed413e6abd0b8fe4b798fc250dc96c0e6488",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": null
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Size": 932888720,
+    "VirtualSize": 932888720,
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/aca012b8cb16ff3371100d50535a173ae29d1c06a5e19de48763ef2fe1c00d25/diff:/var/lib/docker/overlay2/86b5a23046092c24c4d5cf0c99d55c8df9e22a89130fd120bfc9fc92844c907f/diff:/var/lib/docker/overlay2/04ed20a5b93ffae7cc33c7953535ba509090c075a3e35e548b48f1e3a82a605b/diff:/var/lib/docker/overlay2/001b8819f00f93fd088041fdf22616c81cf11ee59d663763c26954c19553b532/diff:/var/lib/docker/overlay2/d50356ba5e5f30bc39e3f4f925d708ee049fbef8fa715d086bc982934797d83f/diff:/var/lib/docker/overlay2/8333852fb51c693f8f815df872b7fb817b1839eaadbbc4daefc1ff8825bb6793/diff:/var/lib/docker/overlay2/264360c31026da5351774fbb45f069db376660443a856ee20b439ffa03c147a0/diff:/var/lib/docker/overlay2/68a822526e954c3f8d6b3882e29fe89ea569680803bfc33e66e65b2b70cfb5e0/diff",
+            "MergedDir": "/var/lib/docker/overlay2/dc4707033119e633a2967f9a814285af7773c5fd22c3c8c6b04ecb35b15a7f23/merged",
+            "UpperDir": "/var/lib/docker/overlay2/dc4707033119e633a2967f9a814285af7773c5fd22c3c8c6b04ecb35b15a7f23/diff",
+            "WorkDir": "/var/lib/docker/overlay2/dc4707033119e633a2967f9a814285af7773c5fd22c3c8c6b04ecb35b15a7f23/work"
+        },
+        "Name": "overlay2"
+    },
+    "RootFS": {
+        "Type": "layers",
+        "Layers": [
+            "sha256:dd5242c2dc8ae9782b73f83281625f45bd6217dc79540e1019d5da0913b491b0",
+            "sha256:6f1c84e6ec59994a62846d628bc155af1dd390386407a3d9f12f77bc783dde5b",
+            "sha256:b52c1c103fae115e0eaee11d9818b25ea03733a5a3b04e98fdfefaefca22cc62",
+            "sha256:e6d60910d0565ce211523d456096059cc73c82ecc0b7ba561d751797d7adebc7",
+            "sha256:f63773c65620e6b235333fcfcb37ae72f1a21251cd02367ea46f50d78ed95f87",
+            "sha256:07aa3e49712193568d2e5f936b5cc3dc86319593e07f56d82b59f6d2dbe6f879",
+            "sha256:c664d35d040952fafef8055db3a1e48718191a2b6e9e4bcfce464c3efeb22e0d",
+            "sha256:98db0f6b946f7bab9ffc4d2eac02ea62504e2086968fb1be15ce9a32aef0c171",
+            "sha256:5e8e2c20e0bbc768bdba195b7bc1ff5de15849c59c791faadf4e2388f9d800bf"
+        ]
+    },
+    "Metadata": {
+        "LastTagTime": "0001-01-01T00:00:00Z"
+    }
+}
