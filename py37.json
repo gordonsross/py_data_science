@@ -8,7 +8,7 @@
     ],
     "Parent": "",
     "Comment": "",
-    "Created": "2020-01-25T02:49:31.328209202Z",
+    "Created": "2020-01-27T15:21:31.12814569Z",
     "Container": "9d8498a37d2d7151b684ca08ce846a29dd727cff634c51b63d10d9a2e49917f6",
     "ContainerConfig": {
         "Hostname": "9d8498a37d2d",
@@ -24,7 +24,7 @@
             "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
             "LANG=C.UTF-8",
             "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
-            "PYTHON_VERSION=3.8.1",
+            "PYTHON_VERSION=3.7.6",
             "PYTHON_PIP_VERSION=20.0.2",
             "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/42ad3426cb1ef05863521d7988d5f7fec0c99560/get-pip.py",
             "PYTHON_GET_PIP_SHA256=da288fc002d0bb2b90f6fbabc91048c1fa18d567ad067ee713c6e331d3a32b45"
